@@ -8,6 +8,7 @@ The purpose of me putting this together was to create a .NET Minimal API combine
 C# and Typescript code was written by a human and reveiwed by AI. 
 AI was also used for quick bug fixing.
 
+![Screenshot of the dashboard](nunit-test-dashboard/Images/app.png)
 
 ### Features
 - Displays NUnit test results in a table format with tiles

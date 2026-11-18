@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="0" testcasecount="5" result="Failed">
+  <test-suite type="Assembly" name="Example.Tests">
+    <test-case id="1" name="TestOne" result="Passed" duration="0.125" />
+    <test-case id="2" name="TestTwo" result="Failed" duration="0.350">
+<failure>
+        <message><![CDATA[Assert.That(response.StatusCode, Is.EqualTo(200))
+  Expected: 200
+  But was:  500
+at Example.Tests.TestTwo() line 42]]></message>
+      </failure>
+    </test-case>
+    <test-case id="3" name="TestThree" result="Skipped" duration="0" />
+    <test-case id="4" name="TestFour" result="Passed" duration="0.135" />
+    <test-case id="5" name="TestFive" result="Passed" duration="0.150" />
+  </test-suite>
+</test-run>

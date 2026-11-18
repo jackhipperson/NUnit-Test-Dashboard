@@ -1,0 +1,15 @@
+@nunit_test_dashboard_HostAddress = http://localhost:5160
+
+POST {{nunit_test_dashboard_HostAddress}}/api/results/upload/
+Accept: application/xml
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<test-run>
+    <test-suite>
+        <test-case name="Test1" result="Passed" duration="0.5" />
+        <test-case name="Test2" result="Failed" duration="0.2" />
+    </test-suite>
+</test-run>
+
+###
